@@ -1,0 +1,12 @@
+.name_item {
+    padding: 20px 12px;
+    border-radius: 6px;
+    margin: 4px;
+    font-size: 14px;
+    transition: .3s;
+}
+
+.active_item {
+    background-color: red;
+}
+

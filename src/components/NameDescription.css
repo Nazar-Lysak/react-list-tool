@@ -1,0 +1,76 @@
+.active-name {
+    grid-column: span 8;
+    position: relative;
+    margin: 20px 4px;
+    font-size: 14px;
+    border: solid 1px red;
+    border-radius: 8px;
+}
+
+.arrow {
+    height: 20px;
+    width: 20px;
+    background-color: #D8D7D6; 
+    position: absolute;
+    top: -11px;
+    left: 9px;
+    transition: .3s;
+    transform: rotate(45deg);
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+}
+
+.close {
+    position: absolute;
+    padding: 10px;
+    font-size: 30px;
+    color: red;
+    cursor: pointer;
+    right: 10px;
+}
+
+.headding {
+    background-color: #D8D7D6;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 24px 48px;
+    margin: 0;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+    border-radius: 8px 8px 0 0;
+}
+
+.description-wrapper {
+    padding: 10px 0 30px;
+    overflow: hidden;
+}
+
+.description {
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+.share {
+    margin: 20px 15px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+    .active-name {
+        grid-column: span 6;
+    }
+}
+
+@media (max-width: 768px) {
+    .active-name {
+        grid-column: span 4;
+    }
+}
+
+@media (max-width: 424px) {
+    .active-name {
+        grid-column: span 2;
+    }
+}
